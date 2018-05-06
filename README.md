@@ -18,7 +18,7 @@ $ ./a.out test1.c > test1o.asm
 Now, this assembly code can be simulated by MASM assembler,
 using the file lib.asm for various input/output
 operations, to get the final output.
-> masm test1o.asm
-> link test1o.obj
-> test1o
+$ masm test1o.asm
+$ link test1o.obj
+$ test1o
 
